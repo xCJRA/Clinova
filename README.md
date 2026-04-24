@@ -14,7 +14,7 @@
 ### 1. Clonar repositorio
 
 ```bash id="k0xk0p"
-git clone <repo-url>
+git clone <https://github.com/xCJRA/Clinova>
 cd clinova
 ```
 
