@@ -1,0 +1,107 @@
+# =========================
+
+# Laravel Core
+
+# =========================
+
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+
+# =========================
+
+# Environment (seguridad)
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Laravel cache & logs
+
+# =========================
+
+/bootstrap/cache/*.php
+/bootstrap/cache/*.json
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# =========================
+
+# Frontend build
+
+# =========================
+
+/public/build
+/public/hot
+
+# =========================
+
+# Testing
+
+# =========================
+
+.phpunit.result.cache
+
+# =========================
+
+# IDEs / Editors
+
+# =========================
+
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# Backups (tu carpeta custom)
+
+# =========================
+
+/backups/
+/*.sql
+/*.zip
+/*.bak
+
+# =========================
+
+# Docker override (local only)
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# Misc
+
+# =========================
+
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
